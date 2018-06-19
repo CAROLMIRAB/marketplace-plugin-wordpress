@@ -144,4 +144,3 @@ $content_ad = $dbh->get_results($query_ad);
     </div>
 </div>
 
-
