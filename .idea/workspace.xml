@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4af6a42-4070-472e-9780-c479859e08ab" name="Default" comment="" />
+    <list default="true" id="f4af6a42-4070-472e-9780-c479859e08ab" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,8 +69,8 @@
       <file leaf-file-name="template_marketplace_dashboard.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/template_marketplace_dashboard.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="293" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="293" selection-end-column="0" />
+            <state relative-caret-position="289">
+              <caret line="114" column="0" lean-forward="true" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -307,6 +309,7 @@
         <option value="$PROJECT_DIR$/template-marketplace2.php" />
         <option value="$PROJECT_DIR$/templates/marketplace-email.php" />
         <option value="$PROJECT_DIR$/includes/marketplace-shortcodes.php" />
+        <option value="$PROJECT_DIR$/template_marketplace_dashboard.php" />
       </list>
     </option>
   </component>
@@ -550,12 +553,12 @@
       <workItem from="1528994004341" duration="327000" />
       <workItem from="1529081086122" duration="2563000" />
       <workItem from="1529359445236" duration="799000" />
-      <workItem from="1529425602783" duration="10586000" />
+      <workItem from="1529425602783" duration="10972000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="576348000" />
+    <option name="totallyTimeSpent" value="576734000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1588" y="-86" width="1343" height="654" extended-state="0" />
@@ -1088,8 +1091,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/template_marketplace_dashboard.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="293" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="293" selection-end-column="0" />
+        <state relative-caret-position="289">
+          <caret line="114" column="0" lean-forward="true" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -98,7 +98,7 @@ if (!is_user_logged_in()) {
                 <div class="navbar-header">
                     <div style="float: left;padding: 15px">
                         <a style="font-size: 15px; padding:14px; margin-top: 600px; color: #FFFFFF;"
-                           href="<?php echo esc_url(home_url('/')) . 'marketplace/email' ?>"><strong><i
+                           href="<?php echo esc_url(home_url('/')) . 'marketplace/' ?>"><strong><i
                                         class="material-icons" style="font-size: 25px;">arrow_back</i>VOLVER
                                 AL MARKETPLACE
                             </strong>
@@ -126,7 +126,7 @@ if (!is_user_logged_in()) {
 
                     <ul class="nav navbar-nav navbar-right">
                         <li class="dropdown">
-                            <a href="<?php echo esc_url(home_url('/')) . 'marketplace/mi-perfil/' ?>" class="dropdown-toggle" data-toggle="dropdown">
+                            <a href="<?php echo esc_url(home_url('/')) . 'marketplace/email/' ?>" >
                                 <i class="material-icons">notifications</i>
                                 <?php echo marketplace_notifications_number() ?>
                                 <p class="hidden-lg hidden-md">
