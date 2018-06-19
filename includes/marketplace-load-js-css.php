@@ -5,6 +5,7 @@ add_action( 'wp_enqueue_scripts', 'marketplace_enqueue_styles', 15 );
 add_action( 'wp_enqueue_scripts', 'marketplace_enqueue_scripts', 10 );
 add_action( 'admin_enqueue_scripts', 'marketplace_admin_enqueue_scripts', 10, 1 );
 add_action( 'admin_enqueue_scripts', 'marketplace_admin_enqueue_styles', 10, 1 );
+
 function marketplace_enqueue_styles() {
     wp_register_style( 'marketplace-desoslide', plugins_url( 'marketplace/assets/css/jquery.desoslide.css' ), array(), MARKETPLACE_VERSION );
     wp_enqueue_style( 'marketplace-desoslide' );
