@@ -113,10 +113,10 @@ function marketplace_notifications_number( $atts, $content = null ) {
     $table_messages = $wpdb->prefix . "messages";
     $user = wp_get_current_user()->ID;
 
-    $query = "select count(id) from $table_messages  where user_in = $user and status=1 order by datecurrency desc";
+    $query = "select count(id) as noti_number from $table_messages  where user_in = $user and status=1 order by datecurrency desc";
 
     $result = $wpdb->get_results($query);
 
-    return $result;
+    return $result['noti_number'];
 }
 add_shortcode( 'marketplace_notifications_number', 'marketplace_notifications_number_shortcode' );
