@@ -98,7 +98,7 @@ if (!is_user_logged_in()) {
                 <div class="navbar-header">
                     <div style="float: left;padding: 15px">
                         <a style="font-size: 15px; padding:14px; margin-top: 600px; color: #FFFFFF;"
-                           href="<?php echo esc_url(home_url('/')) . 'marketplace/' ?>"><strong><i
+                           href="<?php echo esc_url(home_url('/')) . 'marketplace/email' ?>"><strong><i
                                         class="material-icons" style="font-size: 25px;">arrow_back</i>VOLVER
                                 AL MARKETPLACE
                             </strong>
@@ -126,17 +126,14 @@ if (!is_user_logged_in()) {
 
                     <ul class="nav navbar-nav navbar-right">
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <a href="<?php echo esc_url(home_url('/')) . 'marketplace/mi-perfil/' ?>" class="dropdown-toggle" data-toggle="dropdown">
                                 <i class="material-icons">notifications</i>
-                                <span class="notification not-number">5</span>
+                                <?php echo marketplace_notifications_number() ?>
                                 <p class="hidden-lg hidden-md">
                                     Notifications
                                     <b class="caret"></b>
                                 </p>
                             </a>
-                            <ul class="dropdown-menu">
-
-                            </ul>
                         </li>
                         <li>
                             <a href="#pablo" class="dropdown-toggle" data-toggle="dropdown">
@@ -188,8 +185,8 @@ if (!is_user_logged_in()) {
     </div>
 </div>
 </body>
-<!--   Core JS Files   -->
 
+<!--   Core JS Files   -->
 <script src="<?php echo get_template_directory_uri() . '/' . 'marketplace/packages/jquery/dist/jquery.min.js'; ?>"
         type="text/javascript"></script>
 <script src="<?php echo get_template_directory_uri() . '/' . 'marketplace/js/trunk8.js'; ?>"
@@ -198,12 +195,10 @@ if (!is_user_logged_in()) {
         type="text/javascript"></script>
 <script src="<?php echo get_template_directory_uri() . '/' . 'marketplace/packages/bootstrap/dist/js/bootstrap.js'; ?>"
         type="text/javascript"></script>
-
 <script src="<?php echo 'https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js'; ?>"
         type="text/javascript"></script>
 <script src="<?php echo get_template_directory_uri() . '/' . 'marketplace/select2/dist/js/select2.js'; ?>"
         type="text/javascript"></script>
-
 <script type="text/javascript">
     var inbox = "<?php echo admin_url('admin-ajax.php'); ?>?action=marketplace_msg_received";
     var outbox = "<?php echo admin_url('admin-ajax.php'); ?>?action=marketplace_msg_sent";
@@ -211,14 +206,10 @@ if (!is_user_logged_in()) {
 </script>
 <script src="<?php echo get_template_directory_uri() . '/' . 'marketplace/wysihtml5x/dist/wysihtml5x-toolbar.min.js'; ?>"
         type="text/javascript"></script>
-
 <script src="<?php echo get_template_directory_uri() . '/' . 'marketplace/handlebars/handlebars.runtime.min.js'; ?>"
         type="text/javascript"></script>
-
 <script src="<?php echo get_template_directory_uri() . '/' . 'marketplace/bootstrap3-wysihtml5-bower/dist/bootstrap3-wysihtml5.min.js'; ?>"
         type="text/javascript"></script>
-
-
 <script src="<?php echo get_template_directory_uri() . '/' . 'marketplace/cropper/dist/cropper.js'; ?>"
         type="text/javascript"></script>
 <script src="<?php echo get_template_directory_uri() . '/' . 'marketplace/packages/material/js/material.js'; ?>"
@@ -233,25 +224,14 @@ if (!is_user_logged_in()) {
         type="text/javascript"></script>
 <script src="<?php echo get_template_directory_uri() . '/' . 'marketplace/packages/moment/src/moment.js'; ?>"
         type="text/javascript"></script>
-<script src="<?php //echo get_template_directory_uri() . '/' . 'marketplace/packages/bootstrap-notify/js/bootstrap-notify.js'; ?>"
-        type="text/javascript"></script>
-<script src="<?php //echo get_template_directory_uri() . '/' . 'marketplace/packages/sharrre/dist/jquery.sharrre.min.js'; ?>"
-        type="text/javascript"></script>
 <script src="<?php echo get_template_directory_uri() . '/' . 'marketplace/tags/bootstrap-tagsinput.min.js'; ?>"
         type="text/javascript"></script>
 <script src="<?php echo get_template_directory_uri() . '/' . 'marketplace/packages/bootstrap-datetimepicker/src/js/bootstrap-datetimepicker.js'; ?>"
-        type="text/javascript"></script>
-<script src="<?php //echo get_template_directory_uri() . '/' . 'marketplace/packages/nouislider/distribute/nouislider.min.js'; ?>"
-        type="text/javascript"></script>
-
-<script src="<?php //echo get_template_directory_uri() . '/' . 'marketplace/packages/jasny-bootstrap/dist/js/jasny-bootstrap.min.js'; ?>"
         type="text/javascript"></script>
 <script src="<?php echo get_template_directory_uri() . '/' . 'marketplace/packages/fullcalendar/dist/fullcalendar.min.js'; ?>"
         type="text/javascript"></script>
 <script src="<?php echo get_template_directory_uri() . '/' . 'marketplace/packages/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js'; ?>"
         type="text/javascript"></script>
-
-
 <script src="<?php echo get_template_directory_uri() . '/' . 'marketplace/js/material-dashboard.js'; ?>"
         type="text/javascript"></script>
 <script src="<?php echo get_template_directory_uri() . '/' . 'marketplace/js/demo.js'; ?>"
@@ -267,7 +247,6 @@ if (get_permalink() == esc_url(home_url('/')) . 'marketplace/mi-perfil/') {
     <?php
 }
 ?>
-
 <script type="text/javascript">
 
     (function () {
