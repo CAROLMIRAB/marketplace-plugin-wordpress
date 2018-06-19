@@ -509,10 +509,10 @@ from $tablename where id_user = '" . $details['id_user'] . "' and status = 1 and
 
     <div class="modal fade" id="modalRedactar" role="dialog" aria-labelledby="exampleModalLabel"
          aria-hidden="true"
-         style="top: 5px; z-index: 999999; bottom: auto">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
+         style="margin-top: 50px; z-index: 999999">
+        <div class="modal-dialog" role="document" style="background: #efefef; padding: 10px;">
+            <div class="modal-content" style="background: #EFEFEF; padding: 5px; border: 1px solid #000">
+                <div class="modal-header" style="border:none">
                     <button type="button" class="close close-modal-email" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">x</span>
                     </button>
@@ -521,7 +521,7 @@ from $tablename where id_user = '" . $details['id_user'] . "' and status = 1 and
                     <form id="form-marketplace-email">
                         <label>Receptor</label>
                         <select class=" form-control" id="select_business" name="state" >
-                           <option value='<?php echo $details['id_user'] ?>'><?php echo $details['name'] ?></option>
+                            <option value='<?php echo $details['id_user'] ?>'><?php echo $details['name'] ?></option>
 
                         </select>
                         <br>
@@ -535,12 +535,14 @@ from $tablename where id_user = '" . $details['id_user'] . "' and status = 1 and
                                   name="marketplace_message"
                                   maxlength="360"></textarea>
 
+                        <input id="url_product" value="<?php echo home_url(add_query_arg( array(), $wp->request ) ) ?>"  hidden="hidden">
+
                         <?php wp_nonce_field('marketplace_nonce', 'marketplace_nonce_field'); ?>
 
                     </form>
 
                 </div>
-                <div class="modal-footer">
+                <div class="modal-footer" style="border:none">
                     <button id="btn-enviar" value='Enviar'
                             class='btn btn-success'
                             data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Enviando">
