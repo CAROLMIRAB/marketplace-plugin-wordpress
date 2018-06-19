@@ -140,12 +140,12 @@
       <file leaf-file-name="marketplace-shortcodes.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/includes/marketplace-shortcodes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="149" column="94" lean-forward="true" selection-start-line="109" selection-start-column="0" selection-end-line="149" selection-end-column="94" />
+            <state relative-caret-position="94">
+              <caret line="115" column="21" lean-forward="true" selection-start-line="115" selection-start-column="21" selection-end-line="115" selection-end-column="21" />
               <folding>
-                <marker date="1529444569000" expanded="true" signature="4297:4412" ph="select ${$ta... ${$table_name}" />
-                <marker date="1529444569000" expanded="true" signature="4989:5165" ph="select ${$ta... ${$table_name}" />
-                <marker date="1529444569000" expanded="true" signature="4989:5173" ph="select ${$ta... ${$table_name}" />
+                <marker date="1529444636000" expanded="true" signature="4296:4411" ph="select ${$ta... ${$table_name}" />
+                <marker date="1529444636000" expanded="true" signature="4988:5164" ph="select ${$ta... ${$table_name}" />
+                <marker date="1529444636000" expanded="true" signature="4988:5172" ph="select ${$ta... ${$table_name}" />
               </folding>
             </state>
           </provider>
@@ -554,16 +554,15 @@
       <workItem from="1528994004341" duration="327000" />
       <workItem from="1529081086122" duration="2563000" />
       <workItem from="1529359445236" duration="799000" />
-      <workItem from="1529425602783" duration="10227000" />
+      <workItem from="1529425602783" duration="10284000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="575989000" />
+    <option name="totallyTimeSpent" value="576046000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1588" y="-86" width="1343" height="654" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41122213" sideWeight="0.49441788" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -572,7 +571,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32737032" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32737032" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29321486" sideWeight="0.50558215" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3983871" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1090,12 +1089,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/marketplace-shortcodes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="149" column="94" lean-forward="true" selection-start-line="109" selection-start-column="0" selection-end-line="149" selection-end-column="94" />
+        <state relative-caret-position="94">
+          <caret line="115" column="21" lean-forward="true" selection-start-line="115" selection-start-column="21" selection-end-line="115" selection-end-column="21" />
           <folding>
-            <marker date="1529444569000" expanded="true" signature="4297:4412" ph="select ${$ta... ${$table_name}" />
-            <marker date="1529444569000" expanded="true" signature="4989:5165" ph="select ${$ta... ${$table_name}" />
-            <marker date="1529444569000" expanded="true" signature="4989:5173" ph="select ${$ta... ${$table_name}" />
+            <marker date="1529444636000" expanded="true" signature="4296:4411" ph="select ${$ta... ${$table_name}" />
+            <marker date="1529444636000" expanded="true" signature="4988:5164" ph="select ${$ta... ${$table_name}" />
+            <marker date="1529444636000" expanded="true" signature="4988:5172" ph="select ${$ta... ${$table_name}" />
           </folding>
         </state>
       </provider>

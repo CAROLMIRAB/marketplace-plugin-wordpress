@@ -127,24 +127,3 @@ function marketplace_notifications_number( $atts, $content = null ) {
 }
 add_shortcode( 'marketplace_notifications_number', 'marketplace_notifications_number_shortcode' );
 
-function marketplace_last_notifications( $atts, $content = null ) {
-
-    global $wpdb;
-
-    $user = wp_get_current_user()->ID;
-    $table_name = $wpdb->prefix . "messages";
-    $table_business = $wpdb->prefix . "business";
-    $list = '';
-
-    $query = "select $table_business.name 
-     from $table_name left join $table_business on $table_business.id_user = $table_name.user_out  where user_in = $user order by datecurrency desc limit 3";
-
-    $result = $wpdb->get_results($query);
-
-    foreach($result as $row){
-        $list.= '<li>'. $row->name.' </li>';
-    }
-
-    return $list;
-}
-add_shortcode( 'marketplace_last_notifications', 'marketplace_last_notifications_shortcode' );
