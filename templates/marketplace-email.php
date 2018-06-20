@@ -24,7 +24,7 @@ $content_ad = $dbh->get_results($query_ad);
         <div class="col-md-10">
                 <div class="tab-content">
                     <div class="tab-pane active" id="recibidos">
-                        <h5>Bandeja de entrada</h5>
+                        <h5>Bandeja de Entrada</h5>
                         <div class="section section-custom" id="inbox">
                             <table class="table table-striped table-bordered table-hover flip-content" id="email-inbox" style="width:100%">
                                 <thead>
@@ -42,7 +42,7 @@ $content_ad = $dbh->get_results($query_ad);
                         </div>
                     </div>
                     <div class="tab-pane" id="enviados">
-                        <h5>Bandeja de salida</h5>
+                        <h5>Bandeja de Salida</h5>
                         <div class="section section-custom" id="outbox">
                             <table class="table table-striped table-bordered table-hover flip-content" id="email-outbox" style="width:100%">
                                 <thead>
