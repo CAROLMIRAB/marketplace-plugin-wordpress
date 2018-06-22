@@ -535,7 +535,7 @@ from $tablename where id_user = '" . $details['id_user'] . "' and status = 1 and
                                   name="marketplace_message"
                                   maxlength="360"></textarea>
 
-                        <input id="url_product" value="<?php echo home_url(add_query_arg( array(), $wp->request ) ) ?>"  hidden="hidden">
+                        <input id="url_product" value="<?php echo home_url(add_query_arg( array(), $wp->request ) ) ?>" hidden="hidden">
 
                         <?php wp_nonce_field('marketplace_nonce', 'marketplace_nonce_field'); ?>
 
