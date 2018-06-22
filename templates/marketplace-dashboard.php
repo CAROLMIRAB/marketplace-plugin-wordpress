@@ -15,6 +15,8 @@ $content = $dbh->get_results($query);
 $queryb = "SELECT * FROM $table_business where id_user = $user";
 $contentb = $dbh->get_results($queryb);
 
+$url = esc_url(home_url('/')) . 'marketplace/product-edit';
+
 ?>
 <div class="container-fluid">
     <div class="row">
@@ -84,7 +86,7 @@ $contentb = $dbh->get_results($queryb);
                                     <div>" . $status . "</div>
                                 </div>
                                 <div class='col-md-1'>
-                                    <a data-toggle='modal' href='#modalEdit' class='btn-simple btn-default btn-edit-product' style='background: none'><i class='material-icons'>edit</i></a>
+                                    <a href='". $url."?product=".$row->slug ."' class='btn-simple btn-default btn-edit-product' style='background: none'><i class='material-icons'>edit</i></a>
                                     <a href='' class='btn-default btn-baja' style='background: none'>Dar de baja</a>
 
                                 </div>
