@@ -83,6 +83,69 @@ add_action('wp_ajax_marketplace_ajax', 'marketplace_ajax');
 add_action('wp_ajax_nopriv_marketplace_ajax', 'marketplace_ajax');
 
 
+function marketplace_product_edit()
+{
+    // verifica nonce
+    if (!isset($_POST['marketplace_nonce_field']) || !wp_verify_nonce($_POST['marketplace_nonce_field'], 'marketplace_nonce')) {
+        echo 'Lo siento, no verifica.';
+        exit;
+    } else {
+        // comprobamos que existen
+        if (isset($_POST['title']) && isset($_POST['description'])) {
+            $title = strlen($_POST['title']);
+            $description = strlen($_POST['description']);
+            $price = $_POST['price'];
+            $categories = $_POST['categories'];
+            $type_prod = $_POST["type"];
+            $tags = $_POST["tags"];
+            $croped_image = $_POST['img'];
+            $id = $_POST['title'];
+
+
+            // valida el máximo de carácteres permitido en cada string y si el email es válido
+            if ($description > 10 && $title > 2) {
+
+                // saneamos
+                $title = sanitize_text_field($_POST['title']);
+                $description = $_POST['description'];
+                $price = sanitize_text_field($_POST['price']);
+                $categories = $_POST['categories'];
+                $type_prod = $_POST['type'];
+                $user = wp_get_current_user()->ID;
+                $id = $_POST['title'];
+
+
+                // insertamos
+                $inserted = marketplace_prod_edit($description, $price, $categories, $type_prod, $id, $user);
+                // SI se ha creado, mostramos mensaje OK
+                if ($inserted) {
+                    $result['type'] = 'success';
+                    $result['msg'] = 'Ud ha enviado su producto de forma exitosa!';
+                    $result = json_encode($result);
+                    echo $result;
+                    wp_die();
+                    // NO se ha creado, mostramos error en #encuesta-error
+                } else {
+                    $result['type'] = 'error';
+                    $result['msg'] = 'Error al editar el producto';
+                    $result = json_encode($result);
+                    echo $result;
+                    wp_die();
+                }
+            } else {
+                $result['type'] = 'error';
+                $result['msg'] = 'Error al enviar formulario';
+                $result = json_encode($result);
+                echo $result;
+                wp_die();
+            }
+        }
+    }
+}
+
+add_action('wp_ajax_marketplace_product_edit', 'marketplace_product_edit');
+add_action('wp_ajax_nopriv_marketplace_product_edit', 'marketplace_product_edit');
+
 function marketplace_business()
 {
     // verifica nonce

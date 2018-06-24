@@ -115,7 +115,18 @@ function marketplace_insert($title, $description, $status, $price, $categories, 
     }
 }
 
-function marketplace_message_insert($asunto, $message, $receptor, $user, $date){
+function marketplace_prod_edit($description, $price, $categories, $type, $id, $user)
+{
+    global $wpdb;
+    $table_name = $wpdb->prefix . "products_services";
+
+    $query = $wpdb->query("UPDATE $table_name set description='$description', price='$price', categories='$categories', type='$type', status='2'  where id = $id and id_user='$user'");
+
+    return true;
+}
+
+function marketplace_message_insert($asunto, $message, $receptor, $user, $date)
+{
     global $wpdb;
 
     $table_name = $wpdb->prefix . "messages";
@@ -126,7 +137,7 @@ function marketplace_message_insert($asunto, $message, $receptor, $user, $date){
             'user_out' => $user,
             'subject' => $asunto,
             'message' => $message,
-            'status'  => 1,
+            'status' => 1,
             'datecurrency' => $date
 
 
