@@ -11,7 +11,7 @@ $user = wp_get_current_user()->ID;
 
 $queryprod = "SELECT 
 " . $table_cat . ".name, 
-" . $tablename .".id as id_product
+" . $tablename .".id as id_product,
 " . $tablename . ".title, 
 " . $tablename . ".slug, 
 " . $tablename . ".categories, 
