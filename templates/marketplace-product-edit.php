@@ -30,7 +30,6 @@ left join " . $table_business . " on " . $tablename . ".id_user = " . $table_bus
 where " . $tablename . ".slug = " . $_GET['product'] . " and
 where status=1", ARRAY_A);
 
-
 //$content = $dbh->get_results($query);
 
 
