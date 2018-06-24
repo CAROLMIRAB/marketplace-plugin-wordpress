@@ -87,7 +87,7 @@ $contentcat = $dbh->get_results($querycat);
                         <div class="col-md-6 col-xs-12">
                             <div class="table-responsive table-sales">
                                 <br id='marketplace-container' class="col-md-5">
-                                <form id='form-marketplace' method='post'
+                                <form id='form-marketplace-edit' method='post'
                                       enctype="multipart/form-data"
                                       class="form-newsletter ">
 
@@ -96,7 +96,7 @@ $contentcat = $dbh->get_results($querycat);
                                            name='marketplace_title'
                                            id='marketplace_title'
                                            size='40'
-                                           class='form-control' value="<?php echo $title ?>">
+                                           class='form-control'  readonly value="<?php echo $title ?>">
                                     <br>
                                     <label class="">Precio (desde)</label>
                                     <input
@@ -147,16 +147,11 @@ $contentcat = $dbh->get_results($querycat);
                                     </div>
                                     <br>
 
-                                    <label class="">Tags</label>
-                                    <input type='text' name='marketplace_tags'
-                                           id='marketplace_tags'
-                                           class='form-control'>
-
                                     <p style="font-size: 10px">Los campos con asterisco (*) son obligatorios para enviar
                                         tu producto o servicio.</p>
 
                                     <?php wp_nonce_field('marketplace_nonce', 'marketplace_nonce_field'); ?>
-                                    <button id="btn-edit-p" value='Enviar'
+                                    <button id="btn-save-edit" value='Enviar'
                                             class='btn btn-success '
                                             data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Enviando">
                                         Enviar
@@ -167,31 +162,7 @@ $contentcat = $dbh->get_results($querycat);
 
                         </div>
                         <div class="col-md-6 col-xs-12">
-                            <div id="canvas-div">
-                                <canvas id="canvas">
 
-                                </canvas>
-                            </div>
-                            <p style="font-size: 10px">Puedes agregar un máximo de 3 imagenes</p>
-                            <br>
-
-                            <input type="hidden" name="MAX_FILE_SIZE" value="2000000"/>
-                            <div class="buttons-upload" style="float: left; width: 100%">
-                                <div style="float: left; width: 60%; display: inline-block;"><input type="file"
-                                                                                                    id="fileInput"
-                                                                                                    accept="image/*"/>
-                                </div>
-                                <div style="float: left; width: 20%; display: inline-block;">
-                                    <button type="button" id="btnCrop" value="Aceptar"
-                                            data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Cargando Imagen...">
-                                        Agregar
-                                    </button>
-                                </div>
-                                <div style="float: left; width: 20%; display: inline-block;"><input type="button"
-                                                                                                    id="btnRestore"
-                                                                                                    value="Eliminar"/>
-                                </div>
-                            </div>
                         </div>
                         <div class="col-md-6 col-xs-12">
                             <div class="preview" style="display: table-cell; width: 100%">
