@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4af6a42-4070-472e-9780-c479859e08ab" name="Default" comment="" />
+    <list default="true" id="f4af6a42-4070-472e-9780-c479859e08ab" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/marketplace-dashboard.php" afterPath="$PROJECT_DIR$/templates/marketplace-dashboard.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +63,7 @@
         <entry file="file://$PROJECT_DIR$/includes/marketplace-bbdd.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="70">
-              <caret line="117" column="17" lean-forward="true" selection-start-line="117" selection-start-column="17" selection-end-line="117" selection-end-column="17" />
+              <caret line="117" column="17" lean-forward="false" selection-start-line="117" selection-start-column="17" selection-end-line="117" selection-end-column="17" />
               <folding>
                 <marker date="1529865469000" expanded="true" signature="644:764" ph="ALTER TABLE " />
                 <marker date="1529865469000" expanded="true" signature="768:866" ph="ALTER TABLE " />
@@ -122,10 +125,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="marketplace-product-edit.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="marketplace-product-edit.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/marketplace-product-edit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-852">
+            <state relative-caret-position="-350">
               <caret line="98" column="73" lean-forward="false" selection-start-line="98" selection-start-column="73" selection-end-line="98" selection-end-column="73" />
               <folding>
                 <marker date="1529866526000" expanded="true" signature="2042:2065" ph="select slug,... ${$table_cat}" />
@@ -134,35 +137,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="marketplace-dashboard.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="marketplace-dashboard.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/marketplace-dashboard.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="51" column="32" lean-forward="true" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+            <state relative-caret-position="119">
+              <caret line="88" column="112" lean-forward="false" selection-start-line="88" selection-start-column="112" selection-end-line="88" selection-end-column="112" />
               <folding>
-                <marker date="1529705039000" expanded="true" signature="215:229" ph="SELECT * FRO... ${$table_products}" />
-                <marker date="1529705039000" expanded="true" signature="215:261" ph="SELECT * FRO... ${$table_products}" />
-                <marker date="1529705039000" expanded="true" signature="215:262" ph="SELECT * FRO... ${$table_products}" />
-                <marker date="1529705039000" expanded="true" signature="319:365" ph="SELECT * FRO... ${$table_products}" />
-                <marker date="1529705039000" expanded="true" signature="3069:3135" ph="..." />
-                <marker date="1529705039000" expanded="true" signature="3170:3236" ph="..." />
-                <marker date="1529705039000" expanded="true" signature="3237:3371" ph="..." />
-                <marker date="1529705039000" expanded="true" signature="3252:3371" ph="..." />
-                <marker date="1529705039000" expanded="true" signature="3383:4621" ph="..." />
-                <marker date="1529705039000" expanded="true" signature="3454:4590" ph="..." />
-                <marker date="1529705039000" expanded="true" signature="3509:3668" ph="..." />
-                <marker date="1529705039000" expanded="true" signature="3576:3629" ph="..." />
-                <marker date="1529705039000" expanded="true" signature="3723:3950" ph="..." />
-                <marker date="1529705039000" expanded="true" signature="4005:4107" ph="..." />
-                <marker date="1529705039000" expanded="true" signature="4162:4208" ph="..." />
-                <marker date="1529705039000" expanded="true" signature="4162:4209" ph="..." />
-                <marker date="1529705039000" expanded="true" signature="4162:4210" ph="..." />
-                <marker date="1529705039000" expanded="true" signature="4162:4293" ph="..." />
-                <marker date="1529705039000" expanded="true" signature="4162:4369" ph="..." />
-                <marker date="1529705039000" expanded="true" signature="4162:4384" ph="..." />
-                <marker date="1529705039000" expanded="true" signature="4162:4555" ph="..." />
-                <marker date="1529705039000" expanded="true" signature="4343:4359" ph="..." />
-                <marker date="1529705039000" expanded="true" signature="4483:4499" ph="..." />
+                <marker date="1529868728000" expanded="true" signature="215:229" ph="SELECT * FRO... ${$table_products}" />
+                <marker date="1529868728000" expanded="true" signature="215:261" ph="SELECT * FRO... ${$table_products}" />
+                <marker date="1529868728000" expanded="true" signature="215:262" ph="SELECT * FRO... ${$table_products}" />
+                <marker date="1529868728000" expanded="true" signature="319:365" ph="SELECT * FRO... ${$table_products}" />
+                <marker date="1529868728000" expanded="true" signature="3069:3135" ph="..." />
+                <marker date="1529868728000" expanded="true" signature="3170:3236" ph="..." />
+                <marker date="1529868728000" expanded="true" signature="3237:3371" ph="..." />
+                <marker date="1529868728000" expanded="true" signature="3252:3371" ph="..." />
+                <marker date="1529868728000" expanded="true" signature="3383:4633" ph="..." />
+                <marker date="1529868728000" expanded="true" signature="3454:4602" ph="..." />
+                <marker date="1529868728000" expanded="true" signature="3509:3668" ph="..." />
+                <marker date="1529868728000" expanded="true" signature="3576:3629" ph="..." />
+                <marker date="1529868728000" expanded="true" signature="3723:3950" ph="..." />
+                <marker date="1529868728000" expanded="true" signature="4005:4107" ph="..." />
+                <marker date="1529868728000" expanded="true" signature="4162:4208" ph="..." />
+                <marker date="1529868728000" expanded="true" signature="4162:4209" ph="..." />
+                <marker date="1529868728000" expanded="true" signature="4162:4210" ph="..." />
+                <marker date="1529868728000" expanded="true" signature="4162:4305" ph="..." />
+                <marker date="1529868728000" expanded="true" signature="4162:4381" ph="..." />
+                <marker date="1529868728000" expanded="true" signature="4162:4396" ph="..." />
+                <marker date="1529868728000" expanded="true" signature="4162:4567" ph="..." />
+                <marker date="1529868728000" expanded="true" signature="4355:4371" ph="..." />
+                <marker date="1529868728000" expanded="true" signature="4495:4511" ph="..." />
               </folding>
             </state>
           </provider>
@@ -298,10 +301,10 @@
         <option value="$PROJECT_DIR$/template-marketplace2.php" />
         <option value="$PROJECT_DIR$/template-details.php" />
         <option value="$PROJECT_DIR$/template_marketplace_dashboard.php" />
-        <option value="$PROJECT_DIR$/templates/marketplace-dashboard.php" />
         <option value="$PROJECT_DIR$/includes/marketplace-bbdd.php" />
         <option value="$PROJECT_DIR$/includes/marketplace-functions.php" />
         <option value="$PROJECT_DIR$/templates/marketplace-product-edit.php" />
+        <option value="$PROJECT_DIR$/templates/marketplace-dashboard.php" />
       </list>
     </option>
   </component>
@@ -559,16 +562,15 @@
       <workItem from="1529505210974" duration="1762000" />
       <workItem from="1529619606233" duration="702000" />
       <workItem from="1529684851281" duration="4598000" />
-      <workItem from="1529772268644" duration="5634000" />
+      <workItem from="1529772268644" duration="5802000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="592320000" />
+    <option name="totallyTimeSpent" value="592488000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="174" y="29" width="904" height="733" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3712297" sideWeight="0.49441788" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -633,29 +635,29 @@
         <state relative-caret-position="945">
           <caret line="63" column="36" lean-forward="false" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
           <folding>
-            <marker date="1529705039000" expanded="true" signature="215:229" ph="SELECT * FRO... ${$table_products}" />
-            <marker date="1529705039000" expanded="true" signature="215:261" ph="SELECT * FRO... ${$table_products}" />
-            <marker date="1529705039000" expanded="true" signature="215:262" ph="SELECT * FRO... ${$table_products}" />
-            <marker date="1529705039000" expanded="true" signature="319:365" ph="SELECT * FRO... ${$table_products}" />
-            <marker date="1529705039000" expanded="true" signature="3069:3135" ph="..." />
-            <marker date="1529705039000" expanded="true" signature="3170:3236" ph="..." />
-            <marker date="1529705039000" expanded="true" signature="3237:3371" ph="..." />
-            <marker date="1529705039000" expanded="true" signature="3252:3371" ph="..." />
-            <marker date="1529705039000" expanded="true" signature="3383:4621" ph="..." />
-            <marker date="1529705039000" expanded="true" signature="3454:4590" ph="..." />
-            <marker date="1529705039000" expanded="true" signature="3509:3668" ph="..." />
-            <marker date="1529705039000" expanded="true" signature="3576:3629" ph="..." />
-            <marker date="1529705039000" expanded="true" signature="3723:3950" ph="..." />
-            <marker date="1529705039000" expanded="true" signature="4005:4107" ph="..." />
-            <marker date="1529705039000" expanded="true" signature="4162:4208" ph="..." />
-            <marker date="1529705039000" expanded="true" signature="4162:4209" ph="..." />
-            <marker date="1529705039000" expanded="true" signature="4162:4210" ph="..." />
-            <marker date="1529705039000" expanded="true" signature="4162:4293" ph="..." />
-            <marker date="1529705039000" expanded="true" signature="4162:4369" ph="..." />
-            <marker date="1529705039000" expanded="true" signature="4162:4384" ph="..." />
-            <marker date="1529705039000" expanded="true" signature="4162:4555" ph="..." />
-            <marker date="1529705039000" expanded="true" signature="4343:4359" ph="..." />
-            <marker date="1529705039000" expanded="true" signature="4483:4499" ph="..." />
+            <marker date="1529868728000" expanded="true" signature="215:229" ph="SELECT * FRO... ${$table_products}" />
+            <marker date="1529868728000" expanded="true" signature="215:261" ph="SELECT * FRO... ${$table_products}" />
+            <marker date="1529868728000" expanded="true" signature="215:262" ph="SELECT * FRO... ${$table_products}" />
+            <marker date="1529868728000" expanded="true" signature="319:365" ph="SELECT * FRO... ${$table_products}" />
+            <marker date="1529868728000" expanded="true" signature="3069:3135" ph="..." />
+            <marker date="1529868728000" expanded="true" signature="3170:3236" ph="..." />
+            <marker date="1529868728000" expanded="true" signature="3237:3371" ph="..." />
+            <marker date="1529868728000" expanded="true" signature="3252:3371" ph="..." />
+            <marker date="1529868728000" expanded="true" signature="3383:4633" ph="..." />
+            <marker date="1529868728000" expanded="true" signature="3454:4602" ph="..." />
+            <marker date="1529868728000" expanded="true" signature="3509:3668" ph="..." />
+            <marker date="1529868728000" expanded="true" signature="3576:3629" ph="..." />
+            <marker date="1529868728000" expanded="true" signature="3723:3950" ph="..." />
+            <marker date="1529868728000" expanded="true" signature="4005:4107" ph="..." />
+            <marker date="1529868728000" expanded="true" signature="4162:4208" ph="..." />
+            <marker date="1529868728000" expanded="true" signature="4162:4209" ph="..." />
+            <marker date="1529868728000" expanded="true" signature="4162:4210" ph="..." />
+            <marker date="1529868728000" expanded="true" signature="4162:4305" ph="..." />
+            <marker date="1529868728000" expanded="true" signature="4162:4381" ph="..." />
+            <marker date="1529868728000" expanded="true" signature="4162:4396" ph="..." />
+            <marker date="1529868728000" expanded="true" signature="4162:4567" ph="..." />
+            <marker date="1529868728000" expanded="true" signature="4355:4371" ph="..." />
+            <marker date="1529868728000" expanded="true" signature="4495:4511" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1004,42 +1006,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/marketplace-dashboard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="32" lean-forward="true" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
-          <folding>
-            <marker date="1529705039000" expanded="true" signature="215:229" ph="SELECT * FRO... ${$table_products}" />
-            <marker date="1529705039000" expanded="true" signature="215:261" ph="SELECT * FRO... ${$table_products}" />
-            <marker date="1529705039000" expanded="true" signature="215:262" ph="SELECT * FRO... ${$table_products}" />
-            <marker date="1529705039000" expanded="true" signature="319:365" ph="SELECT * FRO... ${$table_products}" />
-            <marker date="1529705039000" expanded="true" signature="3069:3135" ph="..." />
-            <marker date="1529705039000" expanded="true" signature="3170:3236" ph="..." />
-            <marker date="1529705039000" expanded="true" signature="3237:3371" ph="..." />
-            <marker date="1529705039000" expanded="true" signature="3252:3371" ph="..." />
-            <marker date="1529705039000" expanded="true" signature="3383:4621" ph="..." />
-            <marker date="1529705039000" expanded="true" signature="3454:4590" ph="..." />
-            <marker date="1529705039000" expanded="true" signature="3509:3668" ph="..." />
-            <marker date="1529705039000" expanded="true" signature="3576:3629" ph="..." />
-            <marker date="1529705039000" expanded="true" signature="3723:3950" ph="..." />
-            <marker date="1529705039000" expanded="true" signature="4005:4107" ph="..." />
-            <marker date="1529705039000" expanded="true" signature="4162:4208" ph="..." />
-            <marker date="1529705039000" expanded="true" signature="4162:4209" ph="..." />
-            <marker date="1529705039000" expanded="true" signature="4162:4210" ph="..." />
-            <marker date="1529705039000" expanded="true" signature="4162:4293" ph="..." />
-            <marker date="1529705039000" expanded="true" signature="4162:4369" ph="..." />
-            <marker date="1529705039000" expanded="true" signature="4162:4384" ph="..." />
-            <marker date="1529705039000" expanded="true" signature="4162:4555" ph="..." />
-            <marker date="1529705039000" expanded="true" signature="4343:4359" ph="..." />
-            <marker date="1529705039000" expanded="true" signature="4483:4499" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/marketplace-bbdd.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
-          <caret line="117" column="17" lean-forward="true" selection-start-line="117" selection-start-column="17" selection-end-line="117" selection-end-column="17" />
+          <caret line="117" column="17" lean-forward="false" selection-start-line="117" selection-start-column="17" selection-end-line="117" selection-end-column="17" />
           <folding>
             <marker date="1529865469000" expanded="true" signature="644:764" ph="ALTER TABLE " />
             <marker date="1529865469000" expanded="true" signature="768:866" ph="ALTER TABLE " />
@@ -1097,10 +1067,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/marketplace-product-edit.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-852">
+        <state relative-caret-position="-350">
           <caret line="98" column="73" lean-forward="false" selection-start-line="98" selection-start-column="73" selection-end-line="98" selection-end-column="73" />
           <folding>
             <marker date="1529866526000" expanded="true" signature="2042:2065" ph="select slug,... ${$table_cat}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/marketplace-dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="88" column="112" lean-forward="false" selection-start-line="88" selection-start-column="112" selection-end-line="88" selection-end-column="112" />
+          <folding>
+            <marker date="1529868728000" expanded="true" signature="215:229" ph="SELECT * FRO... ${$table_products}" />
+            <marker date="1529868728000" expanded="true" signature="215:261" ph="SELECT * FRO... ${$table_products}" />
+            <marker date="1529868728000" expanded="true" signature="215:262" ph="SELECT * FRO... ${$table_products}" />
+            <marker date="1529868728000" expanded="true" signature="319:365" ph="SELECT * FRO... ${$table_products}" />
+            <marker date="1529868728000" expanded="true" signature="3069:3135" ph="..." />
+            <marker date="1529868728000" expanded="true" signature="3170:3236" ph="..." />
+            <marker date="1529868728000" expanded="true" signature="3237:3371" ph="..." />
+            <marker date="1529868728000" expanded="true" signature="3252:3371" ph="..." />
+            <marker date="1529868728000" expanded="true" signature="3383:4633" ph="..." />
+            <marker date="1529868728000" expanded="true" signature="3454:4602" ph="..." />
+            <marker date="1529868728000" expanded="true" signature="3509:3668" ph="..." />
+            <marker date="1529868728000" expanded="true" signature="3576:3629" ph="..." />
+            <marker date="1529868728000" expanded="true" signature="3723:3950" ph="..." />
+            <marker date="1529868728000" expanded="true" signature="4005:4107" ph="..." />
+            <marker date="1529868728000" expanded="true" signature="4162:4208" ph="..." />
+            <marker date="1529868728000" expanded="true" signature="4162:4209" ph="..." />
+            <marker date="1529868728000" expanded="true" signature="4162:4210" ph="..." />
+            <marker date="1529868728000" expanded="true" signature="4162:4305" ph="..." />
+            <marker date="1529868728000" expanded="true" signature="4162:4381" ph="..." />
+            <marker date="1529868728000" expanded="true" signature="4162:4396" ph="..." />
+            <marker date="1529868728000" expanded="true" signature="4162:4567" ph="..." />
+            <marker date="1529868728000" expanded="true" signature="4355:4371" ph="..." />
+            <marker date="1529868728000" expanded="true" signature="4495:4511" ph="..." />
           </folding>
         </state>
       </provider>

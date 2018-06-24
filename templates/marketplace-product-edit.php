@@ -27,7 +27,7 @@ FROM  $tablename
 left join " . $table_cat . " on " . $tablename . ".categories = " . $table_cat . ".slug
 left join " . $table_adherent . " on " . $tablename . ".id_user = " . $table_adherent . ".id_user
 left join " . $table_business . " on " . $tablename . ".id_user = " . $table_business . ".id_user
-where " . $tablename . ".id = " . $_POST['id_product'] . " and
+where " . $tablename . ".slug = " . $_GET['product'] . " and
 where status=1", ARRAY_A);
 
 

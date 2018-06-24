@@ -15,7 +15,6 @@ $content = $dbh->get_results($query);
 $queryb = "SELECT * FROM $table_business where id_user = $user";
 $contentb = $dbh->get_results($queryb);
 
-$url = esc_url(add_query_arg( 'c', $my_value_for_c, site_url( '/product-edit/' ) ) ) ;
 
 ?>
 <div class="container-fluid">
@@ -86,7 +85,7 @@ $url = esc_url(add_query_arg( 'c', $my_value_for_c, site_url( '/product-edit/' )
                                     <div>" . $status . "</div>
                                 </div>
                                 <div class='col-md-1'>
-                                    <a href='". esc_url(add_query_arg( 'c', $row->slug, site_url( '/marketplace/product-edit/' ) ) )."' class='btn-simple btn-default btn-edit-product' style='background: none'><i class='material-icons'>edit</i></a>
+                                    <a href='". esc_url(add_query_arg( 'product', $row->slug, site_url( '/marketplace/product-edit/' ) ) )."' class='btn-simple btn-default btn-edit-product' style='background: none'><i class='material-icons'>edit</i></a>
                                     <a href='' class='btn-default btn-baja' style='background: none'>Dar de baja</a>
 
                                 </div>
