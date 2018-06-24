@@ -9,9 +9,7 @@ $tablename = $wpdb->prefix . "products_services";
 
 $user = wp_get_current_user()->ID;
 
-//$query = "SELECT $table_business.name as bname, $table_business.address, $table_business.workers, $table_business.rut, $table_business.video, $table_business.description, $table_business.phone, $table_business.image, $table_adherent.name, $table_adherent.lastname, $table_adherent.lastname2  FROM $table_adherent, $table_business where $table_adherent.id_user = $user and $table_business.id_user = $table_adherent.id_user";
-
-$content = $wpdb->get_results("SELECT 
+$queryprod = "SELECT 
 " . $table_cat . ".name, 
 " . $tablename . ".title, 
 " . $tablename . ".slug, 
@@ -22,15 +20,15 @@ $content = $wpdb->get_results("SELECT
 " . $tablename . ".type, 
 " . $table_business . ".name as bname, 
 " . $table_business . ".workers,
-" . $table_cat . ".slug as slugcat, 
+" . $table_cat . ".slug as slugcat 
 FROM  $tablename
 left join " . $table_cat . " on " . $tablename . ".categories = " . $table_cat . ".slug
 left join " . $table_adherent . " on " . $tablename . ".id_user = " . $table_adherent . ".id_user
 left join " . $table_business . " on " . $tablename . ".id_user = " . $table_business . ".id_user
-where " . $tablename . ".slug = " . $_GET['product'] . " and
-where status=1", ARRAY_A);
+where " . $tablename . ".slug = '" . $_GET['product'] . "' ";
 
-//$content = $dbh->get_results($query);
+$content = $dbh->get_results($queryprod);
+
 
 
 $price = "";
