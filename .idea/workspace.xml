@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4af6a42-4070-472e-9780-c479859e08ab" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/marketplace-bbdd.php" afterPath="$PROJECT_DIR$/includes/marketplace-bbdd.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/marketplace-functions.php" afterPath="$PROJECT_DIR$/includes/marketplace-functions.php" />
-    </list>
+    <list default="true" id="f4af6a42-4070-472e-9780-c479859e08ab" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,8 +28,8 @@
       <file leaf-file-name="marketplace-functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/marketplace-functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="118" column="40" lean-forward="false" selection-start-line="118" selection-start-column="40" selection-end-line="118" selection-end-column="40" />
+            <state relative-caret-position="581">
+              <caret line="126" column="54" lean-forward="false" selection-start-line="126" selection-start-column="54" selection-end-line="126" selection-end-column="54" />
               <folding>
                 <marker date="1529865416000" expanded="false" signature="9475:9492" ph="..." />
                 <marker date="1529865416000" expanded="true" signature="9493:10089" ph="..." />
@@ -60,25 +56,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="marketplace-bbdd.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="marketplace-bbdd.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/marketplace-bbdd.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="125" column="183" lean-forward="false" selection-start-line="125" selection-start-column="183" selection-end-line="125" selection-end-column="183" />
+            <state relative-caret-position="70">
+              <caret line="117" column="17" lean-forward="true" selection-start-line="117" selection-start-column="17" selection-end-line="117" selection-end-column="17" />
               <folding>
-                <marker date="1529865416000" expanded="true" signature="644:764" ph="ALTER TABLE " />
-                <marker date="1529865416000" expanded="true" signature="768:866" ph="ALTER TABLE " />
-                <marker date="1529865416000" expanded="true" signature="869:1003" ph="ALTER TABLE " />
-                <marker date="1529865416000" expanded="true" signature="3094:3224" ph="UPDATE ${$ta... " />
-                <marker date="1529865416000" expanded="true" signature="3094:3247" ph="UPDATE ${$ta... " />
-                <marker date="1529865416000" expanded="true" signature="4111:4358" ph="select * fro... ${$table_mess}" />
-                <marker date="1529865416000" expanded="true" signature="4111:4390" ph="SELECT ${$ta... ${$table_name}" />
-                <marker date="1529865416000" expanded="true" signature="4630:4909" ph="select ${$ta... ${$table_name}" />
-                <marker date="1529865416000" expanded="true" signature="5112:5155" ph="UPDATE ${$ta... " />
-                <marker date="1529865416000" expanded="true" signature="7149:7196" ph="SELECT * FRO... ${$table_name}" />
-                <marker date="1529865416000" expanded="true" signature="7492:7546" ph="SELECT * FRO... ${$table_name}" />
-                <marker date="1529865416000" expanded="true" signature="9263:9506" ph="UPDATE ${$ta... " />
-                <marker date="1529865416000" expanded="true" signature="9795:9870" ph="SELECT * FRO... ${$table_name}" />
+                <marker date="1529865469000" expanded="true" signature="644:764" ph="ALTER TABLE " />
+                <marker date="1529865469000" expanded="true" signature="768:866" ph="ALTER TABLE " />
+                <marker date="1529865469000" expanded="true" signature="869:1003" ph="ALTER TABLE " />
+                <marker date="1529865469000" expanded="true" signature="3091:3221" ph="UPDATE ${$ta... " />
+                <marker date="1529865469000" expanded="true" signature="3091:3244" ph="UPDATE ${$ta... " />
+                <marker date="1529865469000" expanded="true" signature="4108:4355" ph="select * fro... ${$table_mess}" />
+                <marker date="1529865469000" expanded="true" signature="4108:4387" ph="SELECT ${$ta... ${$table_name}" />
+                <marker date="1529865469000" expanded="true" signature="4627:4906" ph="select ${$ta... ${$table_name}" />
+                <marker date="1529865469000" expanded="true" signature="5109:5152" ph="UPDATE ${$ta... " />
+                <marker date="1529865469000" expanded="true" signature="7146:7193" ph="SELECT * FRO... ${$table_name}" />
+                <marker date="1529865469000" expanded="true" signature="7489:7543" ph="SELECT * FRO... ${$table_name}" />
+                <marker date="1529865469000" expanded="true" signature="9260:9503" ph="UPDATE ${$ta... " />
+                <marker date="1529865469000" expanded="true" signature="9792:9867" ph="SELECT * FRO... ${$table_name}" />
               </folding>
             </state>
           </provider>
@@ -116,10 +112,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="frontend.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="frontend.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/js/frontend.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6165">
+            <state relative-caret-position="-674">
               <caret line="411" column="44" lean-forward="false" selection-start-line="411" selection-start-column="44" selection-end-line="411" selection-end-column="44" />
               <folding />
             </state>
@@ -561,18 +557,18 @@
       <workItem from="1529505210974" duration="1762000" />
       <workItem from="1529619606233" duration="702000" />
       <workItem from="1529684851281" duration="4598000" />
-      <workItem from="1529772268644" duration="4371000" />
+      <workItem from="1529772268644" duration="4803000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="591057000" />
+    <option name="totallyTimeSpent" value="591489000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="396" y="23" width="904" height="733" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09976798" sideWeight="0.49441788" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3712297" sideWeight="0.49441788" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32854864" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286771" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1014,14 +1010,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/frontend.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6165">
-          <caret line="411" column="44" lean-forward="false" selection-start-line="411" selection-start-column="44" selection-end-line="411" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/marketplace-dashboard.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
@@ -1054,10 +1042,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/includes/marketplace-bbdd.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="117" column="17" lean-forward="true" selection-start-line="117" selection-start-column="17" selection-end-line="117" selection-end-column="17" />
+          <folding>
+            <marker date="1529865469000" expanded="true" signature="644:764" ph="ALTER TABLE " />
+            <marker date="1529865469000" expanded="true" signature="768:866" ph="ALTER TABLE " />
+            <marker date="1529865469000" expanded="true" signature="869:1003" ph="ALTER TABLE " />
+            <marker date="1529865469000" expanded="true" signature="3091:3221" ph="UPDATE ${$ta... " />
+            <marker date="1529865469000" expanded="true" signature="3091:3244" ph="UPDATE ${$ta... " />
+            <marker date="1529865469000" expanded="true" signature="4108:4355" ph="select * fro... ${$table_mess}" />
+            <marker date="1529865469000" expanded="true" signature="4108:4387" ph="SELECT ${$ta... ${$table_name}" />
+            <marker date="1529865469000" expanded="true" signature="4627:4906" ph="select ${$ta... ${$table_name}" />
+            <marker date="1529865469000" expanded="true" signature="5109:5152" ph="UPDATE ${$ta... " />
+            <marker date="1529865469000" expanded="true" signature="7146:7193" ph="SELECT * FRO... ${$table_name}" />
+            <marker date="1529865469000" expanded="true" signature="7489:7543" ph="SELECT * FRO... ${$table_name}" />
+            <marker date="1529865469000" expanded="true" signature="9260:9503" ph="UPDATE ${$ta... " />
+            <marker date="1529865469000" expanded="true" signature="9792:9867" ph="SELECT * FRO... ${$table_name}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/includes/marketplace-functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="118" column="40" lean-forward="false" selection-start-line="118" selection-start-column="40" selection-end-line="118" selection-end-column="40" />
+        <state relative-caret-position="581">
+          <caret line="126" column="54" lean-forward="false" selection-start-line="126" selection-start-column="54" selection-end-line="126" selection-end-column="54" />
           <folding>
             <marker date="1529865416000" expanded="false" signature="9475:9492" ph="..." />
             <marker date="1529865416000" expanded="true" signature="9493:10089" ph="..." />
@@ -1083,25 +1093,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/marketplace-bbdd.php">
+    <entry file="file://$PROJECT_DIR$/assets/js/frontend.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="125" column="183" lean-forward="false" selection-start-line="125" selection-start-column="183" selection-end-line="125" selection-end-column="183" />
-          <folding>
-            <marker date="1529865416000" expanded="true" signature="644:764" ph="ALTER TABLE " />
-            <marker date="1529865416000" expanded="true" signature="768:866" ph="ALTER TABLE " />
-            <marker date="1529865416000" expanded="true" signature="869:1003" ph="ALTER TABLE " />
-            <marker date="1529865416000" expanded="true" signature="3094:3224" ph="UPDATE ${$ta... " />
-            <marker date="1529865416000" expanded="true" signature="3094:3247" ph="UPDATE ${$ta... " />
-            <marker date="1529865416000" expanded="true" signature="4111:4358" ph="select * fro... ${$table_mess}" />
-            <marker date="1529865416000" expanded="true" signature="4111:4390" ph="SELECT ${$ta... ${$table_name}" />
-            <marker date="1529865416000" expanded="true" signature="4630:4909" ph="select ${$ta... ${$table_name}" />
-            <marker date="1529865416000" expanded="true" signature="5112:5155" ph="UPDATE ${$ta... " />
-            <marker date="1529865416000" expanded="true" signature="7149:7196" ph="SELECT * FRO... ${$table_name}" />
-            <marker date="1529865416000" expanded="true" signature="7492:7546" ph="SELECT * FRO... ${$table_name}" />
-            <marker date="1529865416000" expanded="true" signature="9263:9506" ph="UPDATE ${$ta... " />
-            <marker date="1529865416000" expanded="true" signature="9795:9870" ph="SELECT * FRO... ${$table_name}" />
-          </folding>
+        <state relative-caret-position="-674">
+          <caret line="411" column="44" lean-forward="false" selection-start-line="411" selection-start-column="44" selection-end-line="411" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>

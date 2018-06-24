@@ -97,7 +97,6 @@ function marketplace_product_edit()
             $price = $_POST['price'];
             $categories = $_POST['categories'];
             $type_prod = $_POST["type"];
-            $tags = $_POST["tags"];
             $croped_image = $_POST['img'];
             $id = $_POST['title'];
 
