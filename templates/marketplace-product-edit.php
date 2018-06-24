@@ -11,6 +11,7 @@ $user = wp_get_current_user()->ID;
 
 $queryprod = "SELECT 
 " . $table_cat . ".name, 
+" . $tablename .".id as id_product
 " . $tablename . ".title, 
 " . $tablename . ".slug, 
 " . $tablename . ".categories, 
@@ -27,9 +28,8 @@ left join " . $table_adherent . " on " . $tablename . ".id_user = " . $table_adh
 left join " . $table_business . " on " . $tablename . ".id_user = " . $table_business . ".id_user
 where " . $tablename . ".slug = '" . $_GET['product'] . "' ";
 
+
 $content = $dbh->get_results($queryprod);
-
-
 
 $price = "";
 $title = "";
@@ -39,6 +39,7 @@ $description = "";
 $img = "";
 $price = "";
 $type = "";
+$id_product = "";
 
 foreach ($content as $row) {
 
@@ -50,6 +51,7 @@ foreach ($content as $row) {
     $img = $row->img;
     $price = $row->price;
     $type = $row->type;
+    $id_product = $row->id_product;
 
 }
 if ($type == 1) {
@@ -133,7 +135,10 @@ $contentcat = $dbh->get_results($querycat);
                                             <option value="<?php echo $rowcat->slug ?>" <?php echo $checked ?> > <?php echo $rowcat->name ?></option>
                                         <?php } ?>
                                     </select>
-                                    <br>
+                                    <input
+                                            type='text' name='marketplace_id'
+                                            id='marketplace_id'
+                                            value="<?php echo $id_product ?>" hidden="hidden">
 
                                     <div class="inbox-form-group">
                                         <label class="">Description Producto o Servicio *</label>

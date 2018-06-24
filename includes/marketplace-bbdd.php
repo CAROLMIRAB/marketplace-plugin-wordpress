@@ -120,7 +120,7 @@ function marketplace_prod_edit($description, $price, $categories, $type, $id, $u
     global $wpdb;
     $table_name = $wpdb->prefix . "products_services";
 
-    $query = $wpdb->query("UPDATE $table_name set description='$description', price='$price', categories='$categories', type='$type', status='2'  where id = $id and id_user='$user'");
+    $query = $wpdb->query("UPDATE $table_name set description='$description', price='$price', categories='$categories', type=$type, status=2  where id = $id and id_user='$user'");
 
     return true;
 }

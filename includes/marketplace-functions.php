@@ -98,7 +98,7 @@ function marketplace_product_edit()
             $categories = $_POST['categories'];
             $type_prod = $_POST["type"];
             $croped_image = $_POST['img'];
-            $id = $_POST['title'];
+            $id = $_POST['id_product'];
 
 
             // valida el máximo de carácteres permitido en cada string y si el email es válido
@@ -111,7 +111,7 @@ function marketplace_product_edit()
                 $categories = $_POST['categories'];
                 $type_prod = $_POST['type'];
                 $user = wp_get_current_user()->ID;
-                $id = $_POST['title'];
+                $id = $_POST['id_product'];
 
 
                 // insertamos
