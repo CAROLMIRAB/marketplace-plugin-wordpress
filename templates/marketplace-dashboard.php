@@ -86,7 +86,7 @@ $contentb = $dbh->get_results($queryb);
                                 </div>
                                 <div class='col-md-1'>
                                     <a href='". esc_url(add_query_arg( 'product', $row->slug, site_url( '/marketplace/product-edit/' ) ) )."' class='btn-simple btn-default btn-edit-product' style='background: none'><i class='material-icons'>edit</i></a>
-                                    <a href='' class='btn-default btn-baja' style='background: none'>Dar de baja</a>
+                                   <!-- <a href='' class='btn-default btn-baja' style='background: none'>Dar de baja</a>-->
 
                                 </div>
                             </div>
